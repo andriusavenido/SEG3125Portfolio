@@ -36,55 +36,93 @@
   </div>
 
 
-<div class="container-fluid d-flex flex-column justify-content-end  min-vh-100 ">
+<div class="container-fluid d-flex flex-column justify-content-end min-vh-100 ">
   <div class="row w-100 mb-5">
     <div class="col text-start">
-      <h1 class="display-1 display-md-2 display-sm-4">SOFTWARE ENGINEER</h1>
+      <h1 class="display-1 display-md-2 display-sm-4 bigtext">SOFTWARE ENGINEER</h1>
     </div>
     <div class="col text-end text-white">
     </div>
   </div>
   <div class="row w-100 mb-5">
     <div class="col text-start">
-      <h1 class="display-1 display-md-2 display-sm-4">ANDRIUS AVENIDO</h1>
+      <h1 class="display-1 display-md-2 display-sm-4 bigtext">ANDRIUS AVENIDO</h1>
     </div>
     <div class="col text-end text-white">
-      <p class="lead">This is text over the full image</p>
+      <p class="lead fw-bold">This is text over the full image</p>
       <button class="btn btn-primary mt-3">Contact Me</button>
     </div>
   </div>
 </div>
 
 
-  <div class="container-lg p-5 mt-5 text-white rounded-2 bg-image-main p-5 text-start">
-  <h1>Case Studies</h1>
-  <p>This is a container with a background image using Bootstrap classes.</p>
+  <div class="container-lg p-5 mt-5 text-white text-shadow-lg rounded-2 bg-image-main p-5 text-center">
+    <h1>Projects</h1>
   </div>
 
   <section class=" p-5">
     <div class="container-lg">
       <div class="row my-5 align-items-cenTer justify-content-center">
         <div class="col-9 col-lg-4 ">
-          <div class="card border-0">
+          <div class="card border-0 bg-primary text-light">
+            <img src="/assets/placeholderservice.png" alt="service img" class="card-img-top">
             <div class="card-body text-center py-4">
-              <h4 class="card-title">Random</h4>
-              <p class="lead card-subtitle">lorem ipsum</p>
-              <a href="" class="btn btn-outline-primary btn-lg mt-3">See Project</a>
+              <h4 class="card-title">Service Site</h4>
+              <p class="lead card-subtitle">Dentist, Bike Repair, Hairdresser</p>
+              <a href="#sidebar" class="mt-3 btn btn-outline-light btn-lg mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                See Project
+              </a>
             </div>
           </div>
         </div>
         <div class="col-9 col-lg-4 ">
-          <div class="card border-0">
+          <div class="card border-0 bg-secondary text-light">
+            <img src="/assets/placeholdgame.png" alt="service img" class="card-img-top">
             <div class="card-body text-center py-4">
-              <h4 class="card-title">Random</h4>
-              <p class="lead card-subtitle">lorem ipsum</p>
-              <a href="" class="btn btn-outline-primary btn-lg mt-3">See Project</a>
+              <h4 class="card-title">Game Site</h4>
+              <p class="lead card-subtitle">A cool video game</p>
+               <a href="#sidebar" class="mt-3 btn btn-outline-light btn-lg mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                See Project
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5 align-items-cenTer justify-content-center">
+        <div class="col-9 col-lg-4 ">
+          <div class="card border-0 bg-secondary text-light">
+            <img src="/assets/placeholdmoney.png" alt="service img" class="card-img-top">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">E-commerce Site</h4>
+              <p class="lead card-subtitle">A robust e-commerce site</p>
+               <a href="#sidebar" class="mt-3 btn btn-outline-light btn-lg mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                See Project
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 col-lg-4 ">
+          <div class="card border-0 bg-primary text-light">
+            <img src="/assets/placeholdana.png" alt="service img" class="card-img-top">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Analytics Site</h4>
+              <p class="lead card-subtitle">BI, Sport, Data Visualization</p>
+               <a href="#sidebar" class="mt-3 btn btn-outline-light btn-lg mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                See Project
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- offcanvas popup-->
+   <div class="offcanvas offcanvas-bottom bg-primary" tabindex="-1" id="sidebar" aria-labelledby="siderbar-label">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title display-4 text-white text-center" id="siderbar-label">This site is a work in progress!</h5>
+    </div>
+   </div>
    
 
   <!-- Bootstrap JS and dependencies (Popper) -->
