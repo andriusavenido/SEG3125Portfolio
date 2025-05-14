@@ -4,22 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andrius' Portfolio</title>
-  <!-- Link to Bootstrap CSS (from node_modules if you copy it to /public or similar) -->
-  <link rel="stylesheet" href="bootstrapAssets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="configcolor.css">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="bg-dark text-light" >
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent navborder p-3">
-    <div class="container-lg border-bottom">
-      <h2 class="display-6">Andrius Avenido <span class="fw-bold fst-italic fs-6">Developer at uOttawa</span></h2>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent navborder">
+    <div class="container-fluid border-bottom  mx-3 p-3">
+      <h2 class="display-6">Andrius Avenido <span class="fw-bold fs-3">Student, Software Engineer, Developer</span></h2>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Works</a>
+            <a class="nav-link" href="#">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -32,65 +31,63 @@
     </div>
   </nav>
 
-    <div class="position-relative text-center">
-    <img src="assets/seussMidnight.jpg" class="img-fluid w-100" alt="Full Background" >
-    <div class="position-absolute top-50 start-50 translate-middle text-white">
-      <h1 class="display-4 fw-bold">Andrius Avenido</h1>
-      <p class="lead">This is text over the full image</p>
-      <button class="btn btn-primary mt-3">Get Started</button>
+  <div class="position-absolute top-0 end-0 z-n1">
+      <img id ="main-image" src="assets/seussMidnight.jpg" class="img-fluid w-100" alt="Full Background Image" >
+  </div>
+
+
+<div class="container-fluid d-flex flex-column justify-content-end  min-vh-100 ">
+  <div class="row w-100 mb-5">
+    <div class="col text-start">
+      <h1 class="display-1 display-md-2 display-sm-4">SOFTWARE ENGINEER</h1>
+    </div>
+    <div class="col text-end text-white">
     </div>
   </div>
-  
+  <div class="row w-100 mb-5">
+    <div class="col text-start">
+      <h1 class="display-1 display-md-2 display-sm-4">ANDRIUS AVENIDO</h1>
+    </div>
+    <div class="col text-end text-white">
+      <p class="lead">This is text over the full image</p>
+      <button class="btn btn-primary mt-3">Contact Me</button>
+    </div>
+  </div>
+</div>
 
-  <div class="container my-5 p-5 text-white rounded-4 bg-image-main">
+
+  <div class="container-lg p-5 mt-5 text-white rounded-2 bg-image-main p-5 text-start">
   <h1>Case Studies</h1>
   <p>This is a container with a background image using Bootstrap classes.</p>
   </div>
 
-  <!-- <div class="container my-5 p-0">
-  <img src="assets/seussMidnight.jpg" class="img-fluid rounded-4" alt="Full container image">
-</div>
-
-<div class="container my-5">
-  <div class="card rounded-4 overflow-hidden">
-    <img src="assets/seussMidnight.jpg" class="img-fluid" alt="Full image card">
-  </div>
-</div> -->
-  <!-- <div class="container mt-5">
-    <h1>Hello, Bootstrap!</h1>
-    <p>This is a simple page using Bootstrap installed via npm.</p>
-    <button class="btn btn-outline-primary">Click Me</button>
-    <p class="lead text-center">Hello world</p>
-    <p class="bg-primary">Hello world</p>
-  </div> -->
-
-  <!-- <h2>Button Groups</h2>
-
-  <div class="btn-group">
-    <a href="" class="btn btn-primary">Button 1</a>
-    <a href="" class="btn btn-warning">Button 2</a>
-  </div>
-
-  <h2>borders</h2>
-  <div class="m-3 p-3 border">default border</div>
-
-   -->
-
-  <div class="container-lg my-5">
-   <h2>justifying</h2>
-   <div class="row justify-content-center">
-    <div class="col-md-3">
-      <div class="p-5 bg-primary text-light"> col 1</div>
+  <section class=" p-5">
+    <div class="container-lg">
+      <div class="row my-5 align-items-cenTer justify-content-center">
+        <div class="col-9 col-lg-4 ">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Random</h4>
+              <p class="lead card-subtitle">lorem ipsum</p>
+              <a href="" class="btn btn-outline-primary btn-lg mt-3">See Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 col-lg-4 ">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Random</h4>
+              <p class="lead card-subtitle">lorem ipsum</p>
+              <a href="" class="btn btn-outline-primary btn-lg mt-3">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-3">
-      <div class="p-5 bg-primary text-light"> col 1</div>
-    </div>
-    <div class="col-md-3">
-      <div class="p-5 bg-primary text-light"> col 1</div>
-    </div>
-   </div>
-  </div>
+  </section>
+   
 
   <!-- Bootstrap JS and dependencies (Popper) -->
   <script src="bootstrapAssets/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
 </body>

@@ -1,5 +1,5 @@
 .bg-image-main {
-  background-image: url('assets/seussMidnight.jpg'); 
+  background-image: url('assets/seusslonely.jpg'); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
@@ -19,13 +19,8 @@
   z-index: 10; 
 }
 
-/* body{
-background: 
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url('assets/seussMidnight.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  color: white; /* makes text white by default 
-} */
+/* Smooth out fade */
+
+#main-image{
+  transition: opacity 0.3s ease;
+}

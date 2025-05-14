@@ -1,0 +1,10 @@
+Keep track of colors here
+
+Main image consists of the following colors:
+#181619
+#c1976c
+#4c444c
+#8e7b7c
+#473a2e
+#ad3f2d
+#cf793a
